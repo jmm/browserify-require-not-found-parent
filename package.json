@@ -1,0 +1,35 @@
+{
+  "name": "browserify-require-not-found-parent",
+  "version": "0.1.0",
+  "main": "browserify-require-not-found-parent",
+  "license": "MIT",
+  "author": "Jesse McCarthy (http://software.jessemccarthy.net/)",
+  "description": "Report pathname of parent module when resolving require() fails in Browserify.",
+  "keywords": [
+    "browserify",
+    "browserify-plugin",
+    "require()",
+    "MODULE_NOT_FOUND",
+    "module resolution",
+    "Error: Cannot find module"
+  ],
+  "files": [
+    "browserify-require-not-found-parent.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmm/browserify-require-not-found-parent.git"
+  },
+  "homepage": "https://github.com/jmm/browserify-require-not-found-parent",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "mocha": "^2.3.0",
+    "sinon": "1.x"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd 'test/{unit,integration}/*.js'"
+  }
+}
