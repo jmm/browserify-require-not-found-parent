@@ -3,7 +3,7 @@ module's pathname instead of just its directory.
 
 Installation:
 
-`browserify-require-not-found-parent` on npm.
+[`browserify-require-not-found-parent`](https://www.npmjs.com/package/browserify-require-not-found-parent) on npm.
 
 Usage:
 
